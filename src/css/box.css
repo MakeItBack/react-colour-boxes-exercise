@@ -1,0 +1,15 @@
+.Box {
+  color: #282c34;
+  width: 12.5vw;
+  height: 12.5vw;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  border: 1px solid #282c34;
+  box-sizing: border-box;
+}
+.Box p {
+  margin: 0.25rem;
+  font-size: 1rem;
+}
