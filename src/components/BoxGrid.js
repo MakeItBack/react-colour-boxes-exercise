@@ -21,7 +21,7 @@ class BoxGrid extends Component {
   }
   render() {
     let boxes = [];
-    for (let i = 1; i <= 24; i++) {
+    for (let i = 1; i <= 32; i++) {
       const id = `box-${i}`;
       boxes.push(
         <Box

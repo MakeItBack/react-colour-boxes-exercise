@@ -6,7 +6,7 @@ function Box(props) {
       className="Box"
       id={props.id}
       style={{ backgroundColor: props.colour }}
-      onClick={props.clickFunc}>
+      onMouseOver={props.clickFunc}>
       <p>{props.id}</p>
     </div>
   );
